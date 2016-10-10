@@ -5,6 +5,9 @@ which dynamically creates an option element as you type. It's useful when you
 want to provide a user with several predefined options, but want to also give
 them the option to add their own, without needing another input field.
 
+**Note:** This currently only supports jQuery. Let me know if you'd like
+prototype support, or feel free to submit a pull request!
+
 ## Usage
 ```js
 $('.my-select').chosen().chosenDynamic({
